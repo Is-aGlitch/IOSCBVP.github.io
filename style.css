@@ -9,14 +9,14 @@
 }
 #particles-js h1{
     position: absolute;
-    top: 40%;
-    left: 24%;
+    top: 45%;
+    left: 22%;
     font-size: 50px;
     color: #ccc;
 }
 #particles-js p{
     position: absolute;
-    top: 53%;
+    top: 55%;
     left: 40%;
     font-size: 20px;
     color: rgb(224, 200, 200);
@@ -50,6 +50,15 @@ a{
     text-decoration: none;
     color: rgb(224, 219, 219);
 }
+#particles-js .ece{
+    font-size: 13px;
+    top: 230px;
+    left: 410px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.4rem;
+}
+
 .container{
     max-width: 1300px;
     margin: auto;
@@ -77,7 +86,7 @@ a{
     color: rgb(224, 200, 200);
 }
 .col-2 p{
-    color: rgb(224, 200, 200)
+    color: rgb(224, 200, 200);
 }
 .btn{
     display: inline-block;
@@ -100,7 +109,6 @@ a{
 .categories{
     margin: 70px;
 }
-
 .categories .col-3{
     text-align: center;
     padding: 40px 20px;
@@ -121,15 +129,33 @@ a{
     min-width: 250px;
     margin-bottom: 30px;
 }
+.row .col-3 p{
+    line-height: 22px;
+    font-size: 13px;
+    color: #3a3a3a;
+    
+}
 .col-3 img{
     width: 100%;
 }
 .small-container{
-    max-width: 1300px;
-    margin: auto;
+    max-width: 1200px;
     padding-left: 25px;
     padding-right: 25px;
-    /* background-color: #100133; */
+}
+.benefits{
+    margin-left: 100px;
+    width: 850px;
+}
+.benefits h1{
+    text-align: left;
+    
+}
+.small-container .benefits p{
+    text-align: left;
+    line-height: 22px;
+    font-size: 13px;
+    color: #3a3a3a;
 }
 .col-4{
     flex-basis: 25px;
