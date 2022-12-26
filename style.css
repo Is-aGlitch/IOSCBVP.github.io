@@ -53,10 +53,16 @@ a{
 #particles-js .ece{
     font-size: 13px;
     top: 230px;
-    left: 410px;
+    left: 35%;
     text-align: center;
     color: #ffffff;
     line-height: 1.4rem;
+}
+.navbar .college-logo-head{
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    width: 135px;
 }
 
 .container{
